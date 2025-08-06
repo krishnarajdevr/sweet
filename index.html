@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="sweet-rack">
+  <div class="rack-title">Sweet Counter</div>
+  <div class="rack-dimensions">Glass Display – 6ft × 4ft × 3ft | 4 Shelves</div>
+
+  <div class="shelf">
+    <div class="shelf-label">Shelf 1:</div>
+    <div class="product" data-rack="Sweet Counter" data-shelf="Shelf 1" data-name="Mysore Pak (3×1)">
+      <img src="image/download.jfif" alt="Pak">
+      <div>Mysore Pak (3×1)</div>
+    </div>
+    <div class="product" data-rack="Sweet container" data-shelf="shelf 1" data-name="Ladoo (2x2)">
+        <img src="image/download (1).jfif" alt="laddu">
+      <div>Ladoo (2×2)</div>
+    </div>
+  </div>
+
+  <div class="shelf">
+    <div class="shelf-label">Shelf 2:</div>
+    <div class="product" data-rack="Sweet container" data-shelf="shelf 2" data-name="Badam Halwa (4×1)">
+      <img src="image/download (2).jfif" alt="badam Halwa">
+      <div>Badam Halwa (4×1)</div>
+    </div>
+  </div>
+
+  <div class="shelf">
+    <div class="shelf-label">Shelf 3:</div>
+    <div class="product" data-rack="Sweet container" data-shelf="shelf 3" data-name="Kaju Katli (2×2)">
+      <img src="image/download (3).jfif" alt="kaju katli">
+      <div>Kaju Katli (2×2)</div>
+    </div>
+  </div>
+
+  <div class="shelf">
+    <div class="shelf-label">Shelf 4:</div>
+    <div class="product" data-rack="Sweet container" data-shelf="shelf 4" data-name="Rasgulla (1×1)">
+      <img src="image/download (4).jfif" alt="Rasgulla">
+      <div>Rasgulla (1×1)</div>
+    </div>
+  </div>
+
+  <div class="print-btn">
+    <button onclick="printRack(this)" id="downloadExcel">🖨️ Print This Rack</button>
+  </div>
+</div>
+
+<div class="sweet-rack">
+  <div class="rack-title">Kaaram Counter</div>
+  <div class="rack-dimensions">Glass Display – 6ft × 4ft × 3ft | 4 Shelves</div>
+
+  <div class="shelf">
+    <div class="shelf-label">Shelf 1:</div>
+    <div class="product" data-rack="Kaaram container" data-shelf="shelf 1" data-name="mrukku (2×1)">
+      <img src="image/download (5).jfif" alt="mrukku">
+      <div>mrukku (2×1)</div>
+    </div>
+    <div class="shelf-label">Shelf 2:</div>
+    <div class="product" data-rack="Kaaram container" data-shelf="shelf 2" data-name="mixture (3×2)">
+      <img src="image/download (6).jfif" alt="mixture">
+      <div>mixture (3×2)</div>
+    </div>
+    <div class="shelf-label">Shelf 3:</div>
+    <div class="product" data-rack="Kaaram container" data-shelf="shelf 3" data-name="ribbon pakoda (2×2)">
+      <img src="image/download (7).jfif" alt="ribbon pakoda">
+      <div>ribbon pakoda (2×2)</div>
+    </div>
+    <div class="shelf-label">Shelf 3:</div>
+    <div class="product" data-rack="Kaaram container" data-shelf="shelf 4" data-name="omapodi (3×2)">
+      <img src="image/download (8).jfif" alt="omapodi">
+      <div>omapodi (3×2)</div>
+    </div>
+    <div class="shelf-label">Shelf 3:</div>
+    <div class="product" data-rack="Kaaram container" data-shelf="shelf 5" data-name="thattai (2×2)">
+      <img src="image/download (9).jfif" alt="thattai">
+      <div>thattai (2×2)</div>
+    </div>
+    <div class="print-btn">
+    <button onclick="printRack(this)" id="downloadExcel">🖨️ Print This Rack</button>
+  </div>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Container for all racks */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Sweet rack styling */
+.sweet-rack {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Rack Title */
+.rack-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #b30059;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+/* Rack Dimensions */
+.rack-dimensions {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Each Shelf Section */
+.shelf {
+  margin-bottom: 15px;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+/* Shelf Label */
+.shelf-label {
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+/* Product Display */
+.product {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.product img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.product div {
+  font-size: 1em;
+}
+
+/* Print Button */
+.print-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.print-btn button {
+  background-color: #b30059;
+  color: white;
+  padding: 10px 16px;
+  font-size: 1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.print-btn button:hover {
+  background-color: #99004d;
+}
+
